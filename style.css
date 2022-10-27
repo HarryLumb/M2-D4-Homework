@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.flex-align {
+  display: flex;
+  align-items: center;
+}
+nav {
+  display: flex;
+  color: black;
+
+  font-size: 12px;
+  gap: 8px;
+  align-items: center;
+  padding: 10px;
+}
+
+.face {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 5px;
+  padding: 0;
+  gap: 5px;
+}
+
+.img-div {
+  margin-inline: 10px;
+}
+
+.hImg {
+  border-radius: 30px;
+}
+
+.bell {
+  background-color: rgba(128, 128, 128, 0.238);
+  border-radius: 20px;
+}
+
+.welcome {
+  display: flex;
+  background-color: #7550fe;
+  object-fit: cover;
+  height: 380px;
+  color: white;
+  font-size: 36px;
+  margin: 0;
+  gap: 50px;
+  line-height: 1;
+  justify-content: center;
+}
+
+.hero-img {
+  height: 380px;
+}
+
+.welcome-text {
+  margin-top: 80px;
+  font-weight: bold;
+}
+
+.small-welcome-text {
+  color: rgba(255, 255, 255, 0.418);
+  font-size: 16px;
+  line-height: 1.8;
+  margin-top: 16px;
+}
+
+.button-div {
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.green-button {
+  background-color: rgb(7, 164, 7);
+  height: 42px;
+  width: 140px;
+  border: none;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.white-button {
+  background-color: white;
+  height: 40px;
+  width: 140px;
+  border: none;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.extra-info {
+  grid-gap: 200px;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.icons {
+  color: #7f6459;
+}
+
+.icon-div {
+  height: 30px;
+  width: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #dfb29e4c;
+  border-radius: 20px;
+}
+
+.extra-title {
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 20px;
+
+}
+
+.individual-extra {
+  gap: 10px;
+}
+
+.extra-text {
+  font-size: 9px;
+  column-rule-color: rgba(0, 0, 0, 0.558);
+  font-weight: lighter;
+  padding-top: 5px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  height: 1500px;
+  background-color: rgba(128, 128, 128, 0.055);
+  padding-top: 80px;
+}
+
+.cards {
+ 
+  height: 300px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-divs {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+
+  justify-content: center;
+}
+
+.card-img-div {
+  width: 100%;
+  height: 35%;
+  
+  /* background-image: url('/assets/course-graphql.jpg'); */
+}
+.lang-img {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.card-titles {
+  display: flex;
+  font-weight: bold;
+  margin-left:100px;
+  font-size: 15px;
+  width:1080;
+  
+}
+
+.card-text {
+  padding-top: 15px;
+  font-size: 14px;
+  display: flex;
+  text-align: center;
+}
+
+.card-time {
+  font-size: 12px;
+  color: black;
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: space-between;
+  justify-content: center;
+}
+
+.stars {
+  padding-top: 20px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.horizontal-line {
+  border: none;
+  border-bottom: 1px solid rgba(147, 145, 145, 0.192);
+  padding-top: 20px;
+}
+
+.discount-price{
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 10px;
+    
+}
+
+
+.original-price{
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+    
+
+.brackets{
+    font-weight: lighter;
+}
+
+.review-img{
+    border-radius: 10px;
+}
+
+.review{
+    display: flex;
+    padding-left: 10px;
+    gap: 10px;
+    font-size: 12px;
+    padding-top: 10px;
+}
