@@ -96,6 +96,7 @@ nav {
   font-size: 12px;
   font-weight: bold;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .white-button {
@@ -107,6 +108,7 @@ nav {
   font-size: 12px;
   font-weight: bold;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .extra-info {
