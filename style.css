@@ -194,6 +194,7 @@ nav {
   font-weight: bold;
 padding-bottom: 10px;
   font-size: 16px;
+  
 }
 
 .card-text {
@@ -266,6 +267,7 @@ footer{
     font-size: 14px;
     justify-content: space-around;
     padding-left: 50px;
+    color: grey
 }
 
 .terms{
